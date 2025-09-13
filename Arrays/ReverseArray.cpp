@@ -6,6 +6,6 @@ int main(){
     int b[n];
     for(int i=0; i<n; i++){ //i+j=n-1 ->j = n-1-i
         b[i] = a[n-1-i]; //formula to reverse the array
-        cout<<b[i]<<" ";
+        cout<<b[i]<<" "; //printing the reverse array
     }
 }
